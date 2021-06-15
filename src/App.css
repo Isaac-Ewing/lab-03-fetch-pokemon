@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.header {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 1fr;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.indiv-pokemon {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+}
+
+#pokedex {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: -40px;
+}
+
+.links {
+  text-align: right;
+}
+
+.nav-link {
+  margin: 4px;
+}
+#form {
+  margin-top: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.button {
+  font-size: 2rem;
+  margin: 8px;
+}

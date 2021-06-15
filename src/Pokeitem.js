@@ -3,9 +3,10 @@ import React from 'react';
 export default class PokeItem extends React.Component {
     render() {
         return (
-            <>
-                <p key={this.props.name}>{this.props.name}</p>
-            </>
+            <div className="indiv-pokemon">
+                <p className="indiv-pokemon-name" key={this.props.name}>{this.props.name}</p>
+                <img src={this.props.src} alt="" height="200px" width="200px" />
+            </div>
         )
     }
 }
